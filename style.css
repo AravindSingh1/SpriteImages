@@ -1,0 +1,195 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 50px;
+}
+
+.fullImage{
+    /* border: 1px solid red; */
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.inputs input{
+    margin-bottom: 40px;
+}
+
+
+.splittedImg{
+    margin-top: 50px;
+    background-image: url(sprite.png);
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 220px;
+}
+
+#aa{
+    background-position: 0px 0px;
+}
+
+#ab{
+    background-position:-236.75px 0px;
+}
+
+#ac{
+    background-position:-473.5px 0px;
+}
+
+#ad{
+    background-position:-724px 0px;
+}
+
+#ba{
+    background-position: 0px -165.83px;
+}
+
+#bb{
+    background-position:-236.75px -165.83px;
+}
+
+#bc{
+    background-position:-473.5px -165.83px;
+}
+
+#bd{
+    background-position:-720px -165.83px;
+}
+
+#ca{
+    background-position: 0px -331.66px;
+}
+
+#cb{
+    background-position:-236.75px -331.66px;
+}
+
+#cc{
+    background-position:-473.5px -331.66px;
+}
+
+#cd{
+    background-position:-720px -331.66px;
+}
+
+#da{
+    background-position: 0px -497.49px;
+}
+
+#db{
+    background-position:-236.75px -497.49px;
+}
+
+#dc{
+    background-position:-473.5px -497.49px;
+}
+
+#dd{
+    background-position:-720px -497.49px;
+}
+
+#ea{
+    background-position: 0px -663.32px;
+}
+
+#eb{
+    background-position:-236.75px -663.32px;
+}
+
+#ec{
+    background-position:-473.5px -663.32px;
+}
+
+#ed{
+    background-position:-720px -663.32px;
+}
+
+#fa{
+    background-position: 0px -829.15px;
+}
+
+#fb{
+    background-position:-236.75px -829.15px;
+}
+
+#fc{
+    background-position:-473.5px -829.15px;
+}
+
+#fd{
+    background-position:-720px -829.15px;
+}
+
+
+#columna{
+    height: 1000px;
+    background-position: 0px 0px;
+}
+
+#columnb{
+    height: 1000px;
+    background-position: -236.75px 0px;
+}
+
+#columnc{
+    height: 1000px;
+    background-position: -473.5px 0px;
+}
+
+#columnd{
+    height: 1000px;
+    background-position: -720px 0px;
+}
+
+#rowb{
+    width: 960px;
+    background-position: 0px -165.83px;
+}
+
+#rowc{
+    width: 960px;
+    background-position: 0px -331.67px;
+}
+
+#rowd{
+    width: 960px;
+    background-position: 0px -497.5px;
+}
+
+#rowe{
+    width: 960px;
+    background-position: 0px -663.4px;
+}
+
+#rowf{
+    width: 960px;
+    background-position: 0px -829.3px;
+}
+
+#rowa{
+    width: 960px;
+    background-position: 0px 0px;
+}
+
+
+#all{
+    width: 400px;
+    background-image: url(sprite.png);
+    height: auto;
+}
